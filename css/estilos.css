@@ -7,33 +7,34 @@
 body {
   display: flex;
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(to right, #0b001c, #8a0b0b);
+  background: linear-gradient( #000000, #8a0b0b, #000000);
   color: white;
 }
 
 .logo {
-    margin-top: 1%;}
+    margin-left: 27%;}
     
 .sidebar {
-  background-color: black;
-  padding: 1rem 0;
-  width: 80px;
+  padding: 3rem 0;
+  width: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 2%;
 }
 
 .sidebar ul {
   list-style: none;
+
 }
 
 .sidebar li {
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 .sidebar img {
-  width: 30px;
-  filter: drop-shadow(0 0 4px #fff);
+  width: 75px;
+  
 }
 
 .main-content {
@@ -41,20 +42,12 @@ body {
   padding: 1rem;
   align-items: center;
   position: relative;
-  left: 25%;
+  
 }
 
 header h1 {
   font-size: 3rem;
   text-align: center;
-}
-
-.sen {
-  color: #ff2f67;
-}
-
-.cine {
-  color: #1e2edb;
 }
 
 .carousel {
@@ -63,20 +56,25 @@ header h1 {
   align-items: center;
   gap: 1rem;
   margin: 2rem 0;
+
 }
 
 .carousel-item {
-  width: 150px;
+  width: 500px;
   height: auto;
+  border-radius: 5px;
+
 }
 
 .carousel-main {
   position: relative;
+  
 }
 
 .carousel-main img {
-  width: 300px;
+  width: 600px;
   height: auto;
+  border-radius: 5px;
 }
 
 .controls {
@@ -104,7 +102,8 @@ header h1 {
   justify-content: space-around;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  font-size: 26px;
 }
 
 .categories a {
@@ -121,6 +120,17 @@ header h1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 1rem;
+  
+}
+
+.parrafo p {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .gallery img {
@@ -179,3 +189,17 @@ header h1 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+ .footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem; 
+ }
+ 
